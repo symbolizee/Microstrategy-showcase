@@ -1,0 +1,233 @@
+.board {
+    display: flex;
+    width: 600px;
+    height: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+.square {
+    height:200px;
+    width:200px;
+    box-sizing:border-box;
+    border:5px solid black;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover{
+    cursor:pointer;
+    background-color: aquamarine;
+}
+
+#stars-frame .glyphicon {
+    margin: 0.3em;
+    font-size:1.75em;
+}
+
+#stars-frame, #answer-frame {
+    width: 40%;
+    float:left;
+}
+
+#button-frame {
+    width:20%;
+    float:left;
+    text-align: center;
+    margin-top: 50px
+}
+
+#stars-frame .well, #answer-frame .well{
+    height:250px;
+}
+
+#number-frame .number, #answer-frame .span{
+    display: inline-block;
+    margin:0.5em;
+    background-color:bisque;
+    width: 30px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.strikethrough{
+    text-decoration : line-through;
+    color:darkslategray;
+}
+.developer-addItem {
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+#number-frame .selected-true
+{
+    background-color: aquamarine;
+    color:dodgerblue;
+    cursor: not-allowed;
+}
+#number-frame .used-true
+{
+    background-color:cadetblue;
+    color:chartreuse;
+    cursor: not-allowed;
+}
+
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px;
+    text-align:right;
+}
+.footer-bottom {
+    background-color: #15224f;
+    min-height: 50px;
+    width: 100%;
+    margin-bottom: 1px
+}
+.survey{
+        border-bottom: 1px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
+width:603px;
+}
+html {
+	color: darkslategray;
+	background-color: #fffefd;
+}
+li{
+    list-style-type: decimal-leading-zero;
+}
+a:hover{
+    text-decoration:none;
+    font-weight:bold;
+}
+.status-false {
+    height: 40px;
+    background-color: red;
+}
+
+.status-true {
+	  height: 40px;
+    background-color: green;
+}
+.home-box {margin:1%; float:left; width:20%;height:180px; border: solid 1px #555; background-color: #eed; box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8); -moz-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8); -webkit-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8); -o-box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8); 
+padding-top:75px;
+} 
+.strikethrough {
+	text-decoration: line-through;
+	color: slategray;
+}
+.panelButton{
+    margin:10px;}
+.slide{
+    position: absolute;
+left: 0px;
+top: 155px;
+    width:250px;
+    background-color:#555;
+    color:white;
+    }
+.content{
+    width: 90%;
+height: 100%;
+float: left;
+text-align: center;
+vertical-align: middle;
+margin: 10% 0 10% 10%;
+}
+h1 {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+.document-addItem {
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+.container
+{
+    background-color: white;
+}
+.form
+{
+    margin: 5px 15px 5px 15px;
+}
+.form-group
+{
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 5px; 
+    
+}
+.logoheader{
+    width: 100%;
+    background-color: #15224f;
+    height: auto;
+
+}
+.form-group input{
+    height:30px;
+}
+.form-group  button{
+    height:30px;
+}
+
+.mercerinsights a{
+    color:white !important;
+
+}
+.MercerPicture{
+    float:left;
+}
+.footer-bottom {
+    background-color: #15224f;
+    min-height: 50px;
+    width: 100%;
+}
+
+.layer{
+    margin:0 40px 0 40px;
+}
+.signInHeader{
+    color:white;
+    font-size:17px;
+    background-color: #006dcc;
+    margin-right: 0px;
+    margin-top: 20px;
+    text-align: center;
+    }
+
+.signInBox{
+    margin-top: -5px;
+    margin-right: 0px;
+}
+html {
+	color: darkslategray;
+	background-color: #fffefd;
+}
+
+body {
+	
+}
+
+.inactive {
+	  height: 40px;
+    background-color: red;
+}
+
+.active {
+    height: 40px;
+    background-color: green;
+}
+
+h1 {
+	text-decoration: underline;
+	text-decoration-style: wavy;
+}
+
+
